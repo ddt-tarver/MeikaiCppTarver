@@ -1,0 +1,15 @@
+src/*.exe
+*.dll
+dll/
+*.cache
+*.log
+*.pdb
+*.o
+*.a
+~$*
+Debug/
+Release/
+.vs/
+*.config
+*iobj
+*ipdb
