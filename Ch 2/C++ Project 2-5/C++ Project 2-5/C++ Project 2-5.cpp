@@ -17,7 +17,7 @@ int main()
 	// 入力された数字をnumに代入する
 	std::cin >> num;
 	// 入力された数字が正であるか確認する
-	if (num < 0) {
+	if (num <= 0) {
 		std::cout << "正でない値が入力されました";
 	} else if ((num % num2) == 0) {
 		std::cout << "その値は3で割り切れます。";
