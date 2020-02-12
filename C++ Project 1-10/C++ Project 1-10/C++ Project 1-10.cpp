@@ -5,13 +5,13 @@
 
 int main()
 {
-	int a;
+	int addSubTen;
 
 	std::cout << "整数値:";
 
-	std::cin >> a;
+	std::cin >> addSubTen;
 
-	std::cout << "10を加えた値は" << a + 10 << "です。" << std::endl;
+	std::cout << "10を加えた値は" << addSubTen + 10 << "です。" << std::endl;
 
-	std::cout << "10を減じた値は" << a - 10 << "です。" << std::endl;
+	std::cout << "10を減じた値は" << addSubTen - 10 << "です。" << std::endl;
 }

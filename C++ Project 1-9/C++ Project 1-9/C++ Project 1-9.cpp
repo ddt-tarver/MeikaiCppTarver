@@ -6,12 +6,12 @@
 int main()
 {
 	// int型のyを生成
-	int y;
+	int myInput;
 	// 整数値を求める文字を表示
 	std::cout << "整数値:";
 	// ユーザーからのインプットをyに読み込む
-	std::cin >> y;
+	std::cin >> myInput;
 	// ユーザーが入力したyとその後を続く文字を画面に表示する
-	std::cout << y << "と入力しましたね。"; 
+	std::cout << myInput << "と入力しましたね。"; 
 }
 
