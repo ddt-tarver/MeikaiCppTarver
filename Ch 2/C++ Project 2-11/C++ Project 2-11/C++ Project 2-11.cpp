@@ -19,12 +19,11 @@ int main()
 		std::cout << num1;
 	}
 	// num2が中央値の場合、表示する
-	if ((num2 <= num1) && (num2 >= num3) || (num2 <= num3) && (num2 >= num1)) {
+	else if ((num2 <= num1) && (num2 >= num3) || (num2 <= num3) && (num2 >= num1)) {
 		std::cout << num2;
 	}
 	// 中央値がnum1でもnum2でもない場合、num3を表示する
 	else {
 		std::cout << num3;
 	}
-
 }

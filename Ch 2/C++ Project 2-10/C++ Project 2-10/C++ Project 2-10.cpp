@@ -17,9 +17,13 @@ int main()
 	// min をnum1で初期化する
 	int min = num1;
 	// num2がminより低い場合、num2の値をminに代入する
-	if (num2 < min) min = num2;
+    if (num2 < min) {
+        min = num2;
+    }
 	// num3がminより低い場合、num3の値をminに代入する
-	if (num3 < min) min = num3;
+    if (num3 < min) {
+        min = num3;
+    }
 	// 最小値を表示する
 	std::cout << "最小値は " << min << "です。";
 	

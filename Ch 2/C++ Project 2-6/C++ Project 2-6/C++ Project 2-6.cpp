@@ -16,18 +16,18 @@ int main()
 	std::cin >> score;
 	
 	// 点数が0から59の間の場合、「不可」を表示する
-	if (score >= 0 && score < 60) {
+	if (score >= 0 && score <= 59) {
 		std::cout << "不可";
 	// 点数が60から69の間の場合、「可」を表示する
-	} else if (score >= 60 && score < 69) {
+	} else if (score >= 60 && score <= 69) {
 		std::cout << "可";
 	}
 	// 点数が70から79の間の場合、「良」を表示する
-	else if (score >= 70 && score < 79) {
+	else if (score >= 70 && score <= 79) {
 		std::cout << "良";
 	}
 	// 点数が80から100の間の場合、「優」を表示する
-	else if (score >= 80 && score < 100) {
+	else if (score >= 80 && score <= 100) {
 		std::cout << "優";
 	}
 
